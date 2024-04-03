@@ -54,7 +54,6 @@ public class FileExample {
         File file = new File("D:\\Code learning\\hoanganhtest.txt");
         if(file.exists()){
             file.delete();
-
             FileWriter output = new FileWriter("D:\\Code learning\\hoanganhtest.txt");
             //Ghi string vào file
             output.write(newData);
